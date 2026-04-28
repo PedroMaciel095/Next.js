@@ -1,0 +1,39 @@
+.cont {
+    background-color: rgb(54, 31, 73);
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    background-color: rgb(71, 66, 66);
+}
+
+button {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+    background-color: purple;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
