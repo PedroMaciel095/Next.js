@@ -3,22 +3,22 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background: black;
-  color: white;
+  background: #7c3aed;
+  color: #ffffff;
 }
 
 .links a {
   margin-left: 20px;
   text-decoration: none;
-  color: white;
-  transition: 0.3s;
+  color: #f8f4ff;
 }
 
 .links a:hover {
-  color: purple;
+  color: #f8f4ff;
 }
 
 .logo {
   font-weight: bold;
   font-size: 20px;
+  color: #ece6ff;
 }

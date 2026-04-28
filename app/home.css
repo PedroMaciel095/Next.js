@@ -1,13 +1,14 @@
 .cont {
-    background-color: rgb(54, 31, 73);
+    background-color: #ffffff;
     width: 100vw;
-    height: 100vh;
-
+    min-height: 100vh;
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 15px;
+    border: 1px solid #d8b4fe;
 }
 
 img {
@@ -19,21 +20,27 @@ form {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 100%;
+    max-width: 360px;
 }
 
 input {
-    padding: 8px;
-    border-radius: 6px;
-    border: 1px solid #000000;
-    background-color: rgb(71, 66, 66);
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #d8b4fe;
+    background-color: #f8f4ff;
+    color: #2c0f5d;
 }
 
 button {
-    padding: 8px;
-    border-radius: 6px;
-    border: 1px solid #ffffff;
-    background-color: purple;
-    color: rgb(255, 255, 255);
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid #7c3aed;
+    background-color: #7c3aed;
+    color: #ffffff;
     cursor: pointer;
+}
 
+button:hover {
+    background-color: #7c3aed;
 }

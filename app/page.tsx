@@ -7,13 +7,6 @@ export default function Home() {
 
       <h1>Page</h1>
 
-      <img src="/imagem.jpg" alt="imagem" />  
-      <form>
-        <input type="text" placeholder="Seu nome" />
-        <input type="email" placeholder="Seu email" />
-        <button type="submit">Enviar</button>
-      </form>
-
     </div>
   );
 }
